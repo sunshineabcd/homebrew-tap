@@ -2,7 +2,7 @@ class Purecanvas < Formula
   desc "Capture, frame, localize and verify App Store / Play Store screenshots"
   homepage "https://github.com/sunshineabcd/purecanvas-cli"
   url "https://github.com/sunshineabcd/purecanvas-cli/raw/v1.2.0/purecanvas-cli-1.2.0.zip"
-  sha256 "5114ea077f2753875929a2a96a5fb7940b8353a16537cce7aaf361f9fc6a9024"
+  sha256 "4b2adb264b78f426bbc5437278aa7d2d6502a21bd0b1dbe2e8f624ccc36585f4"
   license :cannot_represent
 
   # 发布包为 Apple Silicon 二进制，且流程采集依赖完整 Xcode（不作依赖声明）
