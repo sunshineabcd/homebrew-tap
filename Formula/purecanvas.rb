@@ -1,8 +1,8 @@
 class Purecanvas < Formula
   desc "Capture, frame, localize and verify App Store / Play Store screenshots"
   homepage "https://github.com/sunshineabcd/purecanvas-cli"
-  url "https://github.com/sunshineabcd/purecanvas-cli/releases/download/v1.1.0/purecanvas-cli-1.1.0.zip"
-  sha256 "5bbda1e96e48b35d699f5870d4493de8c2700d0dd1e7d1770b06e7c50bdebcc7"
+  url "https://github.com/sunshineabcd/purecanvas-cli/raw/v1.2.0/purecanvas-cli-1.2.0.zip"
+  sha256 "5114ea077f2753875929a2a96a5fb7940b8353a16537cce7aaf361f9fc6a9024"
   license :cannot_represent
 
   # 发布包为 Apple Silicon 二进制，且流程采集依赖完整 Xcode（不作依赖声明）
@@ -16,7 +16,7 @@ class Purecanvas < Formula
 
   def caveats
     <<~EOS
-      流程驱动采集需要完整 Xcode（xcodebuild）。首次使用建议运行：
+      流程驱动采集与全工程代码快拍需要完整 Xcode（xcodebuild / xcrun）。首次使用建议运行：
         purecanvas capture doctor
     EOS
   end
